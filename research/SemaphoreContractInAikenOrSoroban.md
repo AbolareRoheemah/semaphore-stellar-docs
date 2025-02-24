@@ -4,7 +4,9 @@
 
 ## 1. Introduction  
 
-Semaphore currently relies on Solidity-based on-chain contracts (for ZKP verification and anonymity set management) and off-chain JavaScript libraries (for proof generation and Merkle tree updates). Examining Aiken (Cardano) and Soroban (Stellar) as alternatives requires addressing how each platform can replicate or adapt Semaphore’s architecture while possibly improving the protocol’s native features. For protocols like Semaphore, which rely on ZKPs and privacy-preserving infrastructure, it is crucial to examine the underlying blockchain model and tooling of both Aiken and Soroban (i.e., Cardano and Stellar).  
+Semaphore, a privacy protocol leveraging zero-knowledge proofs (ZKPs) for anonymous signaling, currently relies on Solidity-based on-chain smart contracts (for ZKP verification and anonymity set management) and off-chain JavaScript libraries (for proof generation and Merkle tree updates). To explore alternatives, this report examines Aiken (Cardano) and Soroban (Stellar), evaluating how each platform can replicate or adapt Semaphore’s architecture while potentially enhancing its native features.
+
+For protocols like Semaphore, which depend on ZKPs and privacy-preserving infrastructure, the underlying blockchain model and tooling are critical. This report assesses Aiken and Soroban across four key areas: language paradigms, ecosystem integration, security, and performance, providing insights for implementing Semaphore smart contracts on each platform.
 
 ---
 
